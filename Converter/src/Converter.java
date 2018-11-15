@@ -8,6 +8,7 @@ public class Converter
 				// practice pull requests 
 				
 				// please work finally
+				DecimalToBinary.covertToBinary();
 			}
 
 	}

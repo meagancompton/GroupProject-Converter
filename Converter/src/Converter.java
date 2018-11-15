@@ -1,4 +1,8 @@
 
+
+
+
+
 public class Converter
 	{
 		public static void main(String[] args)
@@ -8,10 +12,8 @@ public class Converter
 				// practice pull requests 
 				
 				// please work finally
-				
-				// im going to die.
-
-
+				DecimalToBinary.covertToBinary();
 			}
 
 	}
+

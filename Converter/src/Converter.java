@@ -9,6 +9,7 @@ public class Converter
 			{
 				//DecimalToBinary.covertToBinary();
 				WeightConverter.promptUser();
+				//test
 			}
 	}
 

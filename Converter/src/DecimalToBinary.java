@@ -7,6 +7,7 @@ public class DecimalToBinary
 		{
 			ArrayList <Integer> binaryNumber = new ArrayList <Integer>();
 			boolean running = true;
+			int number;
 			System.out.println("What would you like to covert your decimal number into?");
 			System.out.println("(1) Binary");
 			System.out.println("(2) Hexadecimal");
@@ -15,6 +16,7 @@ public class DecimalToBinary
 				{
 					System.out.println("Please enter a number less than 128");
 					int userNumber = userInput.nextInt();
+					number = userNumber;
 					do
 						{
 							if(userNumber != 0)
@@ -28,14 +30,17 @@ public class DecimalToBinary
 								}
 						}while(running);
 					Collections.reverse(binaryNumber);
+					System.out.print(number + " in binary is ");
 					for(int i : binaryNumber)
 						{
 							System.out.print(i);
 						}
+					
 				}
 			else if(userChoice == 2)
 				{
-							
+					System.out.println("Please enter a number less than 256");
+					String hexNumber = userInput.nextLine();
 				}
 			}
 	}

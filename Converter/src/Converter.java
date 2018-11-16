@@ -13,6 +13,8 @@ public class Converter
 				
 				// please work finally
 				DecimalToBinary.covertToBinary();
+				
+				conversions_custom.convertCustom();
 			}
 
 	}

@@ -14,7 +14,7 @@ public class DecimalToBinary
 			int userChoice = userInput.nextInt();
 			if(userChoice == 1)
 				{
-					System.out.println("Please enter a number less than 128");
+					System.out.println("Please enter a number");
 					int userNumber = userInput.nextInt();
 					number = userNumber;
 					do

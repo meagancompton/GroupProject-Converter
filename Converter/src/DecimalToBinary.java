@@ -39,8 +39,10 @@ public class DecimalToBinary
 				}
 			else if(userChoice == 2)
 				{
-					System.out.println("Please enter a number less than 256");
-					String hexNumber = userInput.nextLine();
+					System.out.println("Please enter a number");
+					int hexNumber = userInput.nextInt();
+					String str = Integer.toHexString(hexNumber);
+					System.out.println(hexNumber + " in hexadecimal is " + str);
 				}
 			}
 	}

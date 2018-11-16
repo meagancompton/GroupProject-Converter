@@ -44,5 +44,6 @@ public class DecimalToBinary
 					String str = Integer.toHexString(hexNumber);
 					System.out.println(hexNumber + " in hexadecimal is " + str);
 				}
+			System.out.println();
 			}
 	}

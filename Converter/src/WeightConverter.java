@@ -12,6 +12,7 @@ public class WeightConverter
 				double g =  0;
 				System.out.println("If you need help with chemistry this is the converter for you");
 				System.out.println("This converter will convert your mass in kilograms to different units");
+				System.out.println("This converter will also be useful for every metric conversion");
 				System.out.println("For example: kg -> g");
 				System.out.println("Please input a mass in Kg");
 				double userKilograms = userInput.nextDouble();

@@ -7,12 +7,6 @@ public class conversions_custom
 			{
 double finalNumber = 0;
 				
-				System.out.println("Welcome to the Customary Measurements Converter. First, please enter your name.");
-				Scanner userName = new Scanner(System.in);
-				String name = userName.nextLine();
-				
-				System.out.println();
-				System.out.println("Welcome " + name + "." );
 				System.out.println("-------------------------------------------------------------------------------------");
 				System.out.println("The units of measurement you can use are Inches, Feet, Yards, and Miles");
 				System.out.println("-------------------------------------------------------------------------------------");

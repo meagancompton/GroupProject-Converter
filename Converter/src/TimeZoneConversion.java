@@ -4,12 +4,6 @@ public class TimeZoneConversion
 		static Scanner userInput = new Scanner(System.in);
 		public static void TimeZones()
 			{
-				System.out.println("Welcome to the military time zone converter! Please enter your name.");
-				Scanner userName = new Scanner(System.in);
-				String name = userName.nextLine();
-				
-				System.out.println();
-				System.out.println("Welcome " + name + "." );
 				System.out.println("First, please enter the hour of the time where you are.");
 				Scanner hour = new Scanner(System.in);
 				int userHour = hour.nextInt();

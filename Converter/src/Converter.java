@@ -45,6 +45,5 @@ public class Converter
 							}
 					} while(run);
 				System.out.println("Thank you for using our Universal Converter!");
-				
 			}
 	}

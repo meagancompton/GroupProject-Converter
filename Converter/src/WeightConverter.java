@@ -12,6 +12,7 @@ public class WeightConverter
 				double g =  0;
 				System.out.println("If you need help with chemistry this is the converter for you");
 				System.out.println("This converter will convert your mass in kilograms to different units");
+				System.out.println("This converter will also be useful for every metric conversion");
 				System.out.println("For example: kg -> g");
 				System.out.println("Please input a mass in Kg");
 				double userKilograms = userInput.nextDouble();
@@ -64,7 +65,24 @@ public class WeightConverter
 			}
 		public static void ouncesToLiters()
 			{
-				
+				System.out.println("What would you like to convert?");
+				System.out.println("1) Ounces to Liters?");
+				System.out.println("2) Liters to Ounces?");
+				int userChoice = userInput.nextInt();
+				if(userChoice == 1)
+					{
+						System.out.println("Please enter the number of ounces you want to be converted");
+						ounces = userInput.nextDouble();
+						liters = ounces * 0.03;
+						System.out.println(ounces + " ounce(s) in liters is " + liters);
+					}
+				else
+					{
+						System.out.println("Please enter the number of ounces you want to be converted");
+						liters = userInput.nextDouble();
+						ounces = liters * 33.8;
+						System.out.println(liters + " liter(s) in ounces is " + ounces);
+					}
 			}
 		public static void promptUser()
 			{

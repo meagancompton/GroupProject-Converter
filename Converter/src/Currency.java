@@ -5,7 +5,7 @@ public class Currency
 	{
 		static Scanner userInput = new Scanner(System.in);
 		
-		public static void main(String[] args)
+		public static void convertCurrency()
 			{
 				System.out.println("Which currency would you like to convert your US dollar into?");
 				System.out.println("1) Euro");
